@@ -1,0 +1,125 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f0f0f0;
+}
+
+.ui.raised.segment {
+  margin: 20px auto;
+  width: 80%;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+}
+
+.ui.segment.violet.inverted {
+  background-color: #6a0dad !important;
+  color: #fff !important;
+  border-radius: 10px 10px 0 0;
+  padding: 20px;
+  text-align: center;
+}
+
+.ui.segment.violet.inverted h2 {
+  margin: 0;
+  font-size: 24px;
+}
+
+/* Search bar styles */
+.ui.large.fluid.icon.input {
+  margin-bottom: 20px;
+}
+
+.ui.large.fluid.icon.input input {
+  width: 100%;
+  padding: 15px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.ui.large.fluid.icon.input i {
+  padding: 15px;
+  background-color: #6a0dad;
+  color: #fff;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+}
+
+.ui.large.fluid.icon.input input:focus {
+  outline: none;
+}
+
+.ui.large.fluid.icon.input i:hover {
+  background-color: #4c086a;
+}
+
+/* Form styles */
+.ui.segment {
+  margin-bottom: 20px;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+}
+
+.ui.segment form {
+  display: flex;
+  flex-direction: column;
+}
+
+.ui.segment form input[type="date"],
+.ui.segment form input[type="text"],
+.ui.segment form input[type="number"] {
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.ui.segment form button {
+  padding: 10px 20px;
+  background-color: #6a0dad;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.ui.segment form button:hover {
+  background-color: #4c086a;
+}
+
+/* Transaction list styles */
+.ui.celled.striped.padded.table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.ui.celled.striped.padded.table th,
+.ui.celled.striped.padded.table td {
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+  text-align: left;
+}
+
+.ui.celled.striped.padded.table th button {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.ui.celled.striped.padded.table th button:hover {
+  text-decoration: underline;
+}
+
+.ui.celled.striped.padded.table tbody tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.ui.celled.striped.padded.table tbody tr:hover {
+  background-color: #f0f0f0;
+}
